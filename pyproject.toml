@@ -1,6 +1,6 @@
 [project]
 name = "unitree_webrtc_connect_leshy"
-version = "2.0.5"
+version = "2.0.6"
 description = "Connect to the Unitree Go2 and G1 with WebRTC"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -9,7 +9,7 @@ authors = [
 ]
 
 dependencies = [
-    "aiortc-dimos==1.14.0",
+    "aiortc>=1.9.0",
     "pycryptodome",
     "requests",
     "wasmtime",
